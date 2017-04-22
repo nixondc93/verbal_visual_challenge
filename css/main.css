@@ -108,9 +108,13 @@
 }
 
 .img2 {
-  height: 40em;
+  height: 100%;
   background: url(../img/image2.jpg) no-repeat;
   background-size: 100%;
+  display: none;
+}
+.img2-cont{
+  height: 40em;
   margin: 0 10%;
 }
 
@@ -154,7 +158,7 @@ body {
 }
 
 @media (max-width: 1040px) {
-  .img2 {
+  .img2-cont {
     height: 25em;
   }
   .header-text-position {
@@ -181,7 +185,7 @@ body {
   h2 {
     font-size: 1.5em;
   }
-  .img2 {
+  .img2-cont {
     height: 20em;
   }
 }
